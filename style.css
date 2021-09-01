@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Squada+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,0.9528186274509804) 0%, rgba(253,187,45,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-container {
+    width: 50%;
+    height: 100%;
+    padding: 20px;    
+}
+
+.divs-container {
+    width: auto;
+    height: 25%;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.list-container {
+    width: 80%;
+    margin: 30px auto 0 auto;
+    padding: 10px 0px 10px 50px;
+    /* border: 1px solid red; */
+}
+
+.list-itens {
+    margin: 15px 0;
+    list-style: none;
+    color: #222;
+    font-family: 'Squada One', cursive;
+    font-style: italic;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+.form-container {
+    position: relative;
+    width: 70%;
+    height: 80%;
+    border: 1px solid  #F0E68C;
+    box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: auto;
+    top: 15%;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F0E68C;
+}
+
+.title {
+    margin: 20px auto;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Knewave', cursive;
+    font-style: unset;
+}
+
+@media (max-width: 801px) {
+    body {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+
+    .section-container {
+        width: 100%;
+    }
+
+    .form-container {
+        height: 500px;
+    }
+    
+    .list-container {
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        /* border: 1px solid red; */
+    }
+
+  }
