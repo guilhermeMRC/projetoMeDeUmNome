@@ -15,6 +15,10 @@ const json = [
         nome: 'Gustavo',
         genero: 'Masculino'
     },
+    {
+        nome: 'Marcos',
+        genero: 'Masculino'
+    },
 ]
 
 var btn = document.querySelector('button').addEventListener('click', (e) => {
