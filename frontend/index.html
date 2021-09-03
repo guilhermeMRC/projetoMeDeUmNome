@@ -6,19 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Protótipo 2</title>
+    <title>Me De Um Nome</title>
 </head>
 
 <body>
     <section class="section-container">
-        <h1 class="title">Me dê um nome</h1>
+        <h1 class="title-section">Me dê um nome</h1>
         <ul class="list-container">
             <li class="list-itens">Esta com dificuldade de escolher um nome para seu filho?</li>
-            <li class="list-itens">aqui temos a solução que vc procurava!</li>
+            <li class="list-itens">Aqui temos a solução que vc procurava!</li>
             <li class="list-itens">Escolha um nome para o seu bêbe sem fazer muito esforço;</li>
             <li class="list-itens">Busque por diversos tipos de nomes;</li>
             <li class="list-itens">Temos uma infinidade de nomes masculinos e femininos;</li>
-            <li class="list-itens">venha conhecer o "Me dê um nome";</li>
+            <li class="list-itens">Venha conhecer o "Me dê um nome";</li>
             <li class="list-itens">É de graça e você pode gerar quantas vezes quiser até encontrar o nome perfeito</li>
             <li class="list-itens">Quer conhecer?</li>
             <li class="list-itens">Preencha os campos na área do formulário e gere o nome para o seu filho hoje mesmo!
@@ -27,18 +27,19 @@
     </section>
     <section class="section-container">
         <form class="form-container" action="">
-            <h2 class="title">título</h2>
-            <label for="">aaa</label>
-            <input type="text" name="" id="lastName">
+            <h2 class="title-form">Me dê um nome</h2>
+            <h3 class="title-form title-form-size">Gere seu nome aqui</h3>
+            <label class="label-form" for="lastName">Sobrenome</label>
+            <input class="input-form" type="text" name="lastName" id="lastName" placeholder="Digite seu sobre nome...">
             <div>
-                <h3>bbbb</h3>
-                <input type="radio" name="" id="">
-                <label for="">F</label>
-                <input type="radio" name="" id="">
-                <label for="">M</label>
+                <h3 class="label-form title-label-form">Selecione um gênero (opicional)</h3>
+                <input class="radio-form" type="radio" name="gender" id="female">
+                <label class="label-form" for="female">F</label>
+                <input class="radio-form radio-form-space" type="radio" name="gender" id="male">
+                <label class="label-form" for="male">M</label>
             </div>
-            <label for="">ccc</label>
-            <select class="input-text-size box-selection" name="select-initial" id="initial">
+            <label class="label-form" for="initial">Selecione uma inicial (opcional)</label>
+            <select class="input-form select-form" name="select-initial" id="initial">
                 <option value="">Selecione...</option>
                 <option value="A">A</option>
                 <option value="B">B</option>
@@ -68,8 +69,8 @@
                 <option value="Z">Z</option>
             </select>
             <button>eee</button>
-            <label for="">nnnn</label>
-            <input type="text" name="" id="resultName">
+            <label class="label-form" for="">nnnn</label>
+            <input class="input-form" type="text" name="" id="resultName">
         </form>
     </section>
     <script src="script.js"></script>

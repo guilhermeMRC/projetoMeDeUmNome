@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300&family=Lobster&display=swap');
 
 * {
     margin: 0;
@@ -38,11 +38,11 @@ body {
 
 .list-itens {
     margin: 15px 0;
-    list-style: none;
-    color: #222;
-    font-family: 'Squada One', cursive;
+    list-style: square;
+    color: #333;;
+    font-family: 'Changa', sans-serif;
     font-style: italic;
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: normal;
 }
 
@@ -59,14 +59,67 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #8EC5FC;
+    color: #FF3B2E    
 }
 
-.title {
-    margin: 20px auto;
+.title-form {
+    margin: 20px auto 5px auto;
     font-size: 2em;
     text-align: center;
-    font-family: 'Knewave', cursive;
-    font-style: unset;
+    font-family: 'Lobster', cursive;
+    color: #FF3B2E;
+}
+
+.title-form-size {
+    margin: 0 auto 20px auto; 
+    font-size: small;
+}
+
+.title-section {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    color: #333;
+}
+
+.label-form {
+    margin-bottom: 5px;
+    font-size: 16pt;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.title-label-form {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.input-form {
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: medium;
+}
+
+.select-form {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.radio-form {
+    outline: none;
+    width: 20px;
+    height: 20px;  
+}
+
+.radio-form-space {
+    margin-left: 10px;
 }
 
 @media (max-width: 801px) {
@@ -82,6 +135,7 @@ body {
 
     .form-container {
         height: 500px;
+        width: 90%;
     }
     
     .list-container {
