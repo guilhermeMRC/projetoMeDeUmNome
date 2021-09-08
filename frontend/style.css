@@ -85,8 +85,8 @@ body {
 }
 
 .label-form {
-    margin-bottom: 5px;
-    font-size: 16pt;
+    margin-bottom: 10px;
+    font-size: 14pt;
     font-family: 'Lobster', cursive;
     
 }
@@ -94,6 +94,10 @@ body {
 .title-label-form {
     font-weight: normal;
     margin-top: 10px;
+}
+
+div {
+    margin-bottom: 10px;
 }
 
 .input-form {

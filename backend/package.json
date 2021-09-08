@@ -1,0 +1,29 @@
+{
+  "name": "me-de-um-nome-backend",
+  "version": "1.0.0",
+  "description": "Projeto para ajudar pais a escolher nomes para os filhos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev-start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "guilhermeMRC/projetoMeDeUmNome"
+  },
+  "keywords": [
+    "Pais",
+    "nomes",
+    "filhos"
+  ],
+  "author": "Guilherme Muniz Rodrigues do Carmo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.5"
+  },
+  "dev": {
+    "nodemon": "^2.0.12"
+  }
+}
