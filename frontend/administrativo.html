@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo</title>
+    <link rel="stylesheet" href="adminStyle.css">
+</head>
+<body>
+    <h1 class="title">Me dê um nome</h1>
+    <form class="form-container" action="">
+        <div class="div-form-container">
+            <h1 class="title-form">Cadastro</h1>
+        </div>
+        <div class="div-form-container">
+            <label class="titles-labels" for="name" required>Nome</label>
+            <input class="input-text" type="text" name="newName" id="name">
+        </div>
+        <div class="div-form-container">
+            <h3 class="titles-labels">Selecione um gênero</h3>
+            <input type="radio" name="gender" id="masculino">
+            <label class="label-radio" for="masculino">M</label>
+            <input type="radio" name="gender" id="feminino">
+            <label class="label-radio" for="feminino">F</label>
+        </div>
+        <div class="div-form-container">
+            <button class="btn" type="submit">Salvar</button>
+        </div> 
+    </form>
+</body>
+</html>

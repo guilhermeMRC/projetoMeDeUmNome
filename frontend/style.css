@@ -6,8 +6,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --first-bg-color: #ff96ad;
+    --second-bg-color: #0e1d47; 
+}
+
 body {
-    background-color: rgba(255, 192, 203, 0.829);
+    background-color: var(--first-bg-color);
+    /* background-color: rgba(255, 192, 203, 0.829); */
     /* background-color: #8EC5FC;
     background-image: linear-gradient(90deg, #8EC5FC 0%, #E0C3FC 85%); */
     width: 100vw;
@@ -39,18 +45,18 @@ body {
 .list-itens {
     margin: 15px 0;
     list-style: square;
-    color: #333;;
+    color: var(--second-bg-color);
     font-family: 'Changa', sans-serif;
     font-style: italic;
     font-size: 1em;
-    font-weight: normal;
+    font-weight: 700;
 }
 
 .form-container {
     position: relative;
     width: 70%;
     height: 80%;
-    border: 1px solid  #8EC5FC;
+    border: 1px solid  var(--second-bg-color);
     box-shadow: 2px 2px 2px 0.5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin: auto;
@@ -58,8 +64,8 @@ body {
     padding: 10px 30px;
     display: flex;
     flex-direction: column;
-    background-color: #8EC5FC;
-    color: #FF3B2E    
+    background-color: var(--second-bg-color);
+    color: var(--first-bg-color);    
 }
 
 .title-form {
@@ -67,7 +73,7 @@ body {
     font-size: 2em;
     text-align: center;
     font-family: 'Lobster', cursive;
-    color: #FF3B2E;
+    color: var(--first-bg-color);
 }
 
 .title-form-size {
@@ -81,14 +87,13 @@ body {
     font-size: 2.5em;
     font-weight: 400;
     font-family: 'Lobster', cursive;
-    color: #333;
+    color: var(--second-bg-color);
 }
 
 .label-form {
     margin-bottom: 10px;
     font-size: 14pt;
-    font-family: 'Lobster', cursive;
-    
+    font-family: 'Lobster', cursive; 
 }
 
 .title-label-form {
@@ -101,10 +106,10 @@ div {
 }
 
 .input-form {
-    height: 40px;
+    height: 35px;
     padding: 5px 10px;
-    border-radius: 5px;
-    color: #333;
+    border-radius: 2px;
+    color: #000;
     background-color: #fff;
     border: 1px solid #ccc;
     outline: none;
@@ -118,12 +123,38 @@ div {
 
 .radio-form {
     outline: none;
-    width: 20px;
-    height: 20px;  
+    width: 15px;
+    height: 15px;  
 }
 
 .radio-form-space {
     margin-left: 10px;
+}
+
+.container-button {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    width: 46%;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    color: var(--second-bg-color);
+    background-color: var(--first-bg-color);
+    border: none;
+    outline: none;
+    font-size: large;
+    font-family: 'Lobster', cursive; 
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #ff96adb6;
 }
 
 @media (max-width: 801px) {
